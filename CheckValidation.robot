@@ -102,3 +102,4 @@ Success checkout
     Click Element     //*[@id="finish"]
     Sleep     3s
     Close Browser
+    

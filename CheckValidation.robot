@@ -52,6 +52,7 @@ Too long name checkout
     Input Text    id=postal-code    6100
     Click Element     id=continue
     Page Should Contain     Error: hibara kell futatni
+    Close Browser
 
 Special characters checkout
     Success Login
@@ -64,6 +65,7 @@ Special characters checkout
     Input Text    id=postal-code    6100
     Click Element     id=continue
     Page Should Contain     Error: hibara kell futatni
+    Close Browser
 
 Numbers in name checkout
     Success Login
@@ -76,6 +78,7 @@ Numbers in name checkout
     Input Text    id=postal-code    6100
     Click Element     id=continue
     Page Should Contain     Error: hibara kell futatni
+    Close Browser
 
 Cancel button checkout
     Success Login
@@ -102,4 +105,3 @@ Success checkout
     Click Element     //*[@id="finish"]
     Sleep     3s
     Close Browser
-    
